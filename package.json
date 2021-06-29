@@ -1,0 +1,26 @@
+{
+  "name": "node-typescript-api",
+  "version": "1.0.0",
+  "description": "Typescript api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Henrique Noronha Favorette",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^15.12.5",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
