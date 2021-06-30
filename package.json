@@ -10,6 +10,8 @@
     "dev": "ts-node-dev src/index.ts",
     "test:functional": "jest --projects ./test --runInBand",
     "lint": "eslint ./src ./test --ext .ts",
+    "style:check": "prettier --check src/**/*.ts test/**/*",
+    "style:fix": "prettier --write src/**/*.ts test/**/*",
     "lint:fix": "eslint ./src ./test --ext .ts --fix"
   },
   "keywords": [
@@ -29,6 +31,7 @@
     "@typescript-eslint/parser": "^4.28.1",
     "eslint": "^7.29.0",
     "jest": "^27.0.6",
+    "prettier": "^2.3.2",
     "supertest": "^6.1.3",
     "ts-jest": "^27.0.3",
     "ts-node-dev": "^1.1.7",
