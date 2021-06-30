@@ -9,6 +9,7 @@
     "start": "npm run build && node dist/src/index.js",
     "dev": "ts-node-dev src/index.ts",
     "test:functional": "jest --projects ./test --runInBand",
+    "test:unit": "jest",
     "lint": "eslint ./src ./test --ext .ts",
     "style:check": "prettier --check src/**/*.ts test/**/*",
     "style:fix": "prettier --write src/**/*.ts test/**/*",
